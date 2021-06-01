@@ -840,7 +840,7 @@ about
 */
 
 #about {
-  padding: 120px 0px;
+  padding: 50px 0px;
   border-bottom: 1px solid #eee;
 }
 
@@ -859,7 +859,7 @@ about
 }
 
 #about2 {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 #about2 .right-image {
@@ -1235,7 +1235,7 @@ accordions
 */
 
 #frequently-question {
-  padding: 120px 0px;
+  padding: 50px 0px;
 }
 
 #frequently-question .section-heading p {
@@ -1629,6 +1629,41 @@ clients
   margin-top: 30px;
   display: inline-block;
 }
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+
+.counts {
+  padding: 60px 0;
+}
+
+.counts .count-box {
+  width: 100%;
+  text-align: center;
+}
+
+.section-bg {
+  background-color: #f8fbfe;
+}
+
+.counts .count-box span {
+  font-size: 48px;
+  line-height: 48px;
+  display: block;
+  font-weight: 700;
+  color: #124265;
+  margin-left: 80px;
+  margin: auto;
+}
+
+.counts .count-box p {
+  padding: 8px 0 0 0;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1e6ca6;
+}
+
 
 
 /* 
