@@ -321,7 +321,7 @@ header
 }
 
 .header-area {
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -710,6 +710,14 @@ header
   }
 }
 
+@media screen and (orientation:landscape)
+and (min-device-width: 320px) 
+and (max-device-width: 812px) {
+   #welcome {
+      height: 150vh !important;
+   }
+}
+
 /* 
 ---------------------------------------------
 welcome
@@ -730,7 +738,7 @@ TRY IT ... with or without CENTER CENTER
   background-size: cover;
   width: 100%;
   height: 105vh;
-  margin-top: -10vh;
+  margin-top: -19vh;
 }
 
 .welcome-area .header-text {
