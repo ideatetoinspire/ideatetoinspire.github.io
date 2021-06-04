@@ -622,7 +622,6 @@ header
 
 @media (max-width: 991px) {
   .header-area {
-    padding: 0px 15px;
     height: 80px;
     box-shadow: none;
     text-align: center;
@@ -900,7 +899,7 @@ about
 #about2 ul li img {
   display: inline;
   float: left;
-  width: 9%%;
+  width: 9%;
   margin-top: 12px;
 }
 
