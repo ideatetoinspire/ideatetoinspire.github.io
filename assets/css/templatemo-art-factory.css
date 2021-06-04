@@ -338,10 +338,15 @@ header
   background: transparent;
 }
 
+.header-area .main-nav .logo-word {
+  font-weight: 300;
+  font-style: italic;
+}
+
 .header-area .main-nav .logo {
   line-height: 80px;
   color: #fff;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
