@@ -719,7 +719,7 @@ header
 and (min-device-width: 320px) 
 and (max-device-width: 812px) {
    #welcome {
-      height: 180vh !important;
+      height: 200vh !important;
    }
 }
 
@@ -900,7 +900,7 @@ about
 #about2 ul li img {
   display: inline;
   float: left;
-  width: 15%;
+  width: 9%%;
   margin-top: 12px;
 }
 
@@ -1598,6 +1598,11 @@ footer .copyright {
   color: #4a4a4a;
   letter-spacing: 0.88px;
   text-transform: capitalize;
+  text-align: center;
+}
+
+footer .credits{
+  text-align: center;
 }
 
 @media (max-width: 991px) {
