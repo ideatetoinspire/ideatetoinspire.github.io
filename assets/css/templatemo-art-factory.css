@@ -347,14 +347,16 @@ header
   line-height: 80px;
   color: #fff;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: initial;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   float: left;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+
+ 
 }
 
 .header-area .main-nav .nav {
