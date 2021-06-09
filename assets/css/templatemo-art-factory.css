@@ -1605,6 +1605,7 @@ footer .copyright {
 
 footer .credits{
   text-align: center;
+  font-size: 7px;
 }
 
 @media (max-width: 991px) {
